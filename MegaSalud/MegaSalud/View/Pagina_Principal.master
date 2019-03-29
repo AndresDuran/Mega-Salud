@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="~/Controller/Pagina_Principal.master.cs" Inherits="Controller_Pagina_Principal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            border: 1px solid #00FF00;
+            background-color: #00FF00;
+        }
+        .auto-style2 {
+            font-size: xx-large;
+        }
+        .auto-style3 {
+            text-align: center;
+        }
+        .auto-style4 {
+            width: 387px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td class="auto-style4">&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <asp:Image ID="IMG_Logo" runat="server" CssClass="auto-style12" Height="15%" ImageUrl="~/Imagenes/Logo.png" Width="15%" />
+                </td>
+                <td class="auto-style3" colspan="2">
+                    <asp:Label ID="LB_TituloP" runat="server" CssClass="auto-style2" Text="MegaSalud"></asp:Label>
+                </td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+            </p>
+            <br />
+            <br />
+            <br />
+        
+        </asp:ContentPlaceHolder>
+    </form>
+    <table class="auto-style1">
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+    </table>
+</body>
+</html>
